@@ -390,6 +390,198 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ScottoKeebs:MCU_Nice_Nano_V2"
 			(pin_names
 				(offset 1.016)
@@ -1273,6 +1465,267 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Slide_DPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Slide_DPDT"
+				(at 0 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 13.97 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch, dual pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Slide_DPDT_0_0"
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_1_1"
+				(rectangle
+					(start -1.397 5.588)
+					(end -0.762 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.762 5.588)
+					(end 1.397 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 97.79 92.71)
@@ -1399,6 +1852,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b52898a-4065-4670-a119-a3e8d6ebb820")
+	)
+	(junction
+		(at 172.72 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e80a725-12d0-4117-b42f-eee2251e3b4a")
 	)
 	(junction
 		(at 97.79 53.34)
@@ -1848,6 +2307,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 120.65) (xy 240.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393b1cf9-bc20-44a2-8324-61ef05633e73")
+	)
+	(wire
+		(pts
 			(xy 69.85 133.35) (xy 86.36 133.35)
 		)
 		(stroke
@@ -1878,6 +2347,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 158.75) (xy 172.72 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb70cef-4c65-4357-a3f0-00576249111f")
+	)
+	(wire
+		(pts
 			(xy 144.78 95.25) (xy 144.78 110.49)
 		)
 		(stroke
@@ -1885,6 +2364,36 @@
 			(type default)
 		)
 		(uuid "40749093-898f-4c62-8a05-0133c7321e81")
+	)
+	(wire
+		(pts
+			(xy 194.31 120.65) (xy 237.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41150aaf-6f51-4112-9df4-7ef4305b56d3")
+	)
+	(wire
+		(pts
+			(xy 172.72 158.75) (xy 176.53 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5285f490-82cf-46b7-8335-6954e401b84f")
+	)
+	(wire
+		(pts
+			(xy 176.53 132.08) (xy 187.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c4bd23-fa0b-4cc5-8c17-40b0c954179d")
 	)
 	(wire
 		(pts
@@ -2278,6 +2787,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 132.08) (xy 189.23 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c516709b-2681-45d9-804c-7233c0a19ad9")
+	)
+	(wire
+		(pts
+			(xy 172.72 135.89) (xy 176.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca71de4-e39c-4bd3-9a1f-5cf48b4cd4f5")
+	)
+	(wire
+		(pts
 			(xy 113.03 101.6) (xy 113.03 120.65)
 		)
 		(stroke
@@ -2378,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 158.75) (xy 176.53 158.75)
+			(xy 168.91 158.75) (xy 172.72 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2545,9 +3074,9 @@
 			)
 		)
 	)
-	(global_label "Row 6"
+	(global_label "Row 7"
 		(shape input)
-		(at 242.57 80.01 0)
+		(at 204.47 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2556,37 +3085,14 @@
 			)
 			(justify left)
 		)
-		(uuid "13dab0b0-8fdf-483d-b664-dacd266f46b6")
+		(uuid "193d1b54-d726-4490-a94e-939c5d4924a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.4818 80.01 0)
+			(at 213.3818 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row 7"
-		(shape input)
-		(at 195.58 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "193d1b54-d726-4490-a94e-939c5d4924a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.6682 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2610,6 +3116,29 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Bat-"
+		(shape input)
+		(at 212.09 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26238d69-7387-47e5-a9f7-6863d38d014b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.3877 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2708,7 +3237,7 @@
 	)
 	(global_label "Row 9"
 		(shape input)
-		(at 212.09 74.93 180)
+		(at 212.09 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2719,7 +3248,7 @@
 		)
 		(uuid "4cf7ed8e-b9a8-4c6e-a6e5-e2f95d280f1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.1782 74.93 0)
+			(at 203.1782 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,29 +3373,6 @@
 			)
 		)
 	)
-	(global_label "Row 6"
-		(shape input)
-		(at 210.82 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b879211-c652-46fd-a8ac-131be02c5b67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.7318 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row 0"
 		(shape input)
 		(at 212.09 85.09 180)
@@ -2904,6 +3410,29 @@
 		(uuid "604b749a-adef-4411-9b70-8fc31b867383")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.78 24.5922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Bat+"
+		(shape input)
+		(at 194.31 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65107a32-c645-4417-9311-a0c345318299")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.0123 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,25 +3534,25 @@
 			)
 		)
 	)
-	(global_label "Row 5"
+	(global_label "Column 6"
 		(shape input)
-		(at 210.82 114.3 0)
+		(at 189.23 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "81ac5633-2089-44f6-a8b7-563009f1b768")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.7318 114.3 0)
+			(at 176.9922 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3122,7 +3651,7 @@
 	)
 	(global_label "Row 8"
 		(shape input)
-		(at 212.09 77.47 180)
+		(at 212.09 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3133,7 +3662,7 @@
 		)
 		(uuid "d0090e4f-cd6c-4ac3-b82a-ca61b6a018bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.1782 77.47 0)
+			(at 203.1782 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,9 +3672,9 @@
 			)
 		)
 	)
-	(global_label "Row 5"
+	(global_label "Column 6"
 		(shape input)
-		(at 242.57 77.47 0)
+		(at 242.57 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3156,7 +3685,53 @@
 		)
 		(uuid "d7025d80-5f97-4987-8afc-309066206a2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.4818 77.47 0)
+			(at 254.8078 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Bat-"
+		(shape input)
+		(at 218.44 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8374b10-087b-4e9a-8fa0-cb9c530c93ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.7377 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Bat+"
+		(shape input)
+		(at 242.57 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de9e6583-cb38-463a-a65a-77b138441be6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.2723 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,46 +3743,46 @@
 	)
 	(global_label "Row 9"
 		(shape input)
-		(at 195.58 119.38 180)
+		(at 204.47 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "eafa4ce5-73a4-4d10-b680-0b79b556a193")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.6682 119.38 0)
+			(at 213.3818 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Row 8"
 		(shape input)
-		(at 195.58 116.84 180)
+		(at 204.47 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ef979fad-e444-4207-a82e-3c40518d4690")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.6682 116.84 0)
+			(at 213.3818 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3613,6 +4188,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 222.25 115.57 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "118e66d9-3810-4a8a-9c77-a880d3826857")
+		(property "Reference" "JP2"
+			(at 222.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Miscellaneous:solderpadv2"
+			(at 222.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 222.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bb46566-1dd0-4d07-99ab-dacf8111271a")
+		)
+		(pin "2"
+			(uuid "981c2af6-2132-4e60-afb8-1d4553233cd8")
+		)
+		(instances
+			(project "nmsrcErgo"
+				(path "/793be414-1ab3-4e0a-9225-6be9b63946dc"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 115.57 88.9 0)
 		(unit 1)
@@ -3763,6 +4406,76 @@
 			(project "nmsrcErgo"
 				(path "/793be414-1ab3-4e0a-9225-6be9b63946dc"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 240.03 114.3 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2843284c-32b6-4c3d-a826-d5f8071959b1")
+		(property "Reference" "JP1"
+			(at 242.57 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 242.57 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Miscellaneous:solderpadv2"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bf937d6-a633-4495-846d-9fa09ad2e909")
+		)
+		(pin "2"
+			(uuid "aa0158da-9807-4048-9fa7-8144be12a73a")
+		)
+		(instances
+			(project ""
+				(path "/793be414-1ab3-4e0a-9225-6be9b63946dc"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -4880,6 +5593,94 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 189.23 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b658218-69c0-4569-9ace-4ea64a8ba20f")
+		(property "Reference" "D28"
+			(at 186.69 135.8901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 186.69 133.3501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da91fbb6-d5e0-4d0e-abec-a74a15e934b9")
+		)
+		(pin "1"
+			(uuid "c7b9b546-fb64-4d72-a323-ca6455d75ccc")
+		)
+		(instances
+			(project "nmsrcErgo"
+				(path "/793be414-1ab3-4e0a-9225-6be9b63946dc"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 147.32 113.03 0)
 		(unit 1)
@@ -5463,33 +6264,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 203.2 116.84 0)
+		(lib_id "Switch:SW_Slide_DPDT")
+		(at 189.23 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8dffb2a0-8137-455f-961c-62f548ea3729")
-		(property "Reference" "SW1"
-			(at 203.2 106.68 0)
+		(uuid "8da90c82-7766-4344-a46a-cbfcd9d8509c")
+		(property "Reference" "SW2"
+			(at 189.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 203.2 109.22 0)
+		(property "Value" "SW_Slide_DPDT"
+			(at 189.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Encoder_EC11_MX"
-			(at 199.39 112.776 0)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +6299,87 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 110.236 0)
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch, dual pole double throw"
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fe27e046-224a-4de2-a290-f2a0d371ad43")
+		)
+		(pin "4"
+			(uuid "cdfd2464-6806-4f50-8f23-592c5fbc4ae7")
+		)
+		(pin "6"
+			(uuid "4ed1da4f-7f42-4730-8ed4-e9e9b5ea017a")
+		)
+		(pin "2"
+			(uuid "c1360432-9b6c-428c-94f7-36f8dcc1e4aa")
+		)
+		(pin "3"
+			(uuid "2098f4ca-8bf7-4615-8430-bd74ad335a05")
+		)
+		(pin "1"
+			(uuid "3a2665c4-5400-44e9-87cb-6e257f869f85")
+		)
+		(instances
+			(project ""
+				(path "/793be414-1ab3-4e0a-9225-6be9b63946dc"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 196.85 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dffb2a0-8137-455f-961c-62f548ea3729")
+		(property "Reference" "SW1"
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 196.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Scotto:Encoder_EC11_MX"
+			(at 200.66 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +6388,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 203.2 116.84 0)
+			(at 196.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
